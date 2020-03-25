@@ -23,6 +23,10 @@
 # Dump of table author
 # ------------------------------------------------------------
 
+DROP DATABASE book_manager;
+CREATE DATABASE book_manager;
+Use book_manager;
+
 DROP TABLE IF EXISTS `author`;
 
 CREATE TABLE `author` (
